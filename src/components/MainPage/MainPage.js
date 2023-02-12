@@ -12,7 +12,7 @@ import brend2 from "../images/brend2.png";
 import brend3 from "../images/brend3.png";
 
 const MainPage = () => {
-  const [show, setshow] = useState(false)
+  const [show, setshow] = useState(true)
   const [state, setState] = useState(false)
 
   const toggle = ()=>{

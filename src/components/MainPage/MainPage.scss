@@ -1,0 +1,214 @@
+@import "../../style/variable.scss";
+
+.smallShrift{
+    padding: 11px 3px;
+    color: #8B8B8B;
+    span{
+        color: $text-color;
+    }
+}
+
+.mainSection{
+    display: flex;
+
+    .leftSide{
+        .card{
+            width: 267px;
+            background: #fff;
+            border-radius: 6px;
+            padding: 16px;
+            margin: 7px 0;
+        }
+        .profile{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            .img{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                    height: 50px;
+                    border-radius: 50%;
+                    border: 0.5px solid rgb(212, 210, 210);
+                }
+                .green-circle{
+                    height: 15px;
+                    width: 15px;
+                    background: $green;
+                    border-radius: 50%;
+                    position: relative;
+                    top: 18px;
+                    right: 10px;
+                }
+            }
+            .grey{
+                color: $text-color;
+                padding:0;
+            }
+          }
+          .list{
+            padding: 12px 0;
+            li{
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                img{
+                    padding: 0 10px;
+                }
+                &:hover{
+                    background: #EEF2FE;
+                    transition: 0.1s ease-in-out;
+                    border-radius: 6px;
+                }
+            }
+          }
+          .title{
+            display: flex;
+            justify-content: space-between;
+            .blue{
+                color: $blue;
+                font-size: 12px;
+                font-weight: 400;
+            }
+          }
+          .brands{
+            padding-top: 24px;
+            .brand{
+                display: flex;
+                .oneThird{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 73px;
+                    height: 73px;
+                    background: $light-grey;
+                    margin: 4px;
+                    border-radius: 8px;
+                    .smallShrift{
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+            }
+          }
+    }
+   
+    .rightSide{
+
+      .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 511px;
+        height: 346px;
+        border-radius: 8px;
+        background: #fff;
+        margin: 7px 24px;
+      }
+      .card2{
+        width: 314px;
+        height: 348px;
+        margin: 7px 0;
+        background: #fff;
+        border-radius: 8px;
+        padding: 24px 20px;
+        h2{
+            font-weight: 400;
+            font-size: 22px;
+            color:$text-color;
+            margin-bottom: 8px;
+        }
+        .mt16{
+            margin-top: 16px;
+        }
+        .price{
+            font-size: 16px;
+            font-weight: 400;
+            color: $red;
+            padding: 4px 0 12px;
+            span{
+                font-size: 12px;
+                color: #8B8B8B;
+                text-decoration: line-through;
+            }
+        }
+       .colors{
+        margin-top: 5px;
+        display: flex;
+        .circle{
+            height: 26px;
+            width: 26px;
+            background: #00e;
+            margin: 0 3px;
+            border: 3px solid #fff;
+            border-radius: 50%;
+        }
+        .k1{
+            margin-left: 0;
+            background: #14191F;
+            &:hover{
+                transition: 0.1 ease-in-out;
+                box-shadow: #14191F 0px 0px 0px 2px,
+                #14191F 0px 4px 6px -1px,
+                #14191F 0px 1px 0px inset;
+            }
+        }
+        .k2{
+            margin-left: 0;
+            background: #17182F;
+            &:hover{
+                transition: 0.1 ease-in-out;
+                box-shadow: #17182F 0px 0px 0px 2px,
+                #17182F 0px 4px 6px -1px,
+                #17182F 0px 1px 0px inset;
+            }
+        }
+        .k3{
+            margin-left: 0;
+            background: #2033DD;
+            &:hover{
+                transition: 0.1 ease-in-out;
+                box-shadow: #2033DD 0px 0px 0px 2px,
+                #2033DD 0px 4px 6px -1px,
+                #2033DD 0px 1px 0px inset;
+            }
+        }
+        .k4{
+            margin-left: 0;
+            background: #A7A7A7;
+            &:hover{
+                transition: 0.1 ease-in-out;
+                box-shadow: #A7A7A7 0px 0px 0px 2px,
+                #A7A7A7 0px 4px 6px -1px,
+                #A7A7A7 0px 1px 0px inset;
+            }
+        }
+        .k5{
+            margin-left: 0;
+            background: #928D8D;
+            &:hover{
+                transition: 0.1 ease-in-out;
+                box-shadow: #928D8D 0px 0px 0px 2px,
+                #928D8D 0px 4px 6px -1px,
+                #928D8D 0px 1px 0px inset;
+            }
+        }
+       }
+      .btn{
+        background-color: $blue;
+        border: 0;
+        border-radius: 60px;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 7px 20px;
+        color: #fff;
+        margin-top: 28px;
+      }
+      }
+      .card3{
+        width: 510px;
+      }
+    }
+}

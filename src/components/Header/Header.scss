@@ -1,0 +1,63 @@
+@import "../../style/variable.scss";
+
+.MainNavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+            padding: 0 8px;
+            color: #8B8B8B;
+            .locIcon{
+                padding-right: 3px;
+            }
+            &:hover{
+                color:$text-color;
+                transition: 0.1s ease-in-out;
+            }
+        }
+        .blue{
+            color: $blue;
+            &:hover{
+              color: $blue;
+            }
+        }
+    } 
+}
+.secondaryNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px 24px;
+    .logo{
+        background: $blue;
+        padding: 5px 12px 7px;
+        border-radius: 8px;
+    }
+    .search{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 13px;
+        width: 560px;
+        height: 46px;
+        background: $light-grey;
+        border-radius: 8px;
+        input{
+            outline: none;
+            border: 0;
+            padding: 8px;
+            width: 400px;
+            background: $light-grey;
+        }
+    }
+    .icons{
+        display: flex;
+    }
+}
